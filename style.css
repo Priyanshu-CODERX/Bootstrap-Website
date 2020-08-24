@@ -1,0 +1,84 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow-x:hidden;
+}
+
+.carousel-inner img {
+	width: 100%;
+    height: 100%;
+}
+header{
+
+}
+#service-box{
+	transform: translateY(-5px);
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+#service-box:hover{
+	/*background: #50d1c0;*/
+	transform: scale(0.1);
+    transition: transform 330ms ease-in-out;
+	transform: translateY(-20px);
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3)
+}
+#dev-tem{
+	transform: translateY(-5px);
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+#dev-template:hover{
+	transform: scale(0.1);
+    transition: transform 330ms ease-in-out;
+	transform: translateY(-20px);
+	/*box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3)*/
+}
+#buttonSource1{
+	background: transparent;
+	border: 2px solid grey;
+	padding: 10px 10px 10px 10px;
+	border-radius: 20px;
+}
+#buttonSource1:hover{
+	animation: zoomIn;
+	animation-duration: 3s;
+}
+#buttonSource1 a{
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#work1{
+	transform: translateY(-5px);
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+#work1:hover{
+	/*background: #50d1c0;*/
+	transform: scale(0.1);
+    transition: transform 330ms ease-in-out;
+	transform: translateY(-20px);
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3)
+}
+#buttonsend{
+	opacity: 30%;
+}
+#buttonsend:hover{
+	padding: 10px 20px 10px 20px;
+	border: 2px solid grey;
+	border-radius: 20px;
+	opacity: 100%;
+}
+.navbar-nav ul li a:hover{
+	color: #f4511e !important;
+    background-color: #fff !important;
+}
+.jumbotron{
+	background-color: #f4511e !important;
+    color: black;
+    padding: 100px 25px;
+}
+#contactbtn:hover{
+	padding: 20px 20px 20px 20px;
+	border: 2px solid black;
+}
+
